@@ -1,0 +1,141 @@
+{
+  "name": "Kornphong iOS Lab (365-Day UDID)",
+  "identifier": "co.evonexus.feather.repo",
+  "subtitle": "EVO Nexus, EVO Ultra & PlateLens Automated Feather Feed",
+  "description": "คลังแอปพลิเคชันส่วนตัวสำหรับ iPhone 17 Pro Max (เซ็นใบรับรอง UDID 365 วันพร้อมติดตั้งและอัปเดตผ่าน Feather)",
+  "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "headerURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "website": "https://github.com/kornnykeer/feather-repo",
+  "tintColor": "#38BDF8",
+  "featuredApps": [
+    "co.evonexus.app.evoNexus",
+    "co.evonexus.app.evoNexusUltra",
+    "co.platelens.app.ios"
+  ],
+  "apps": [
+    {
+      "name": "EVO Nexus",
+      "bundleIdentifier": "co.evonexus.app.evoNexus",
+      "developerName": "Kornphong Keeratitanankul",
+      "subtitle": "Universal 4-Brand Throttle Controller (Gen 1 & Gen 2 Pro)",
+      "localizedDescription": "EVO Nexus — แอปควบคุมกล่องคันเร่งไฟฟ้าอัจฉริยะ 4 แบรนด์ (EVO Extreme Gen 1 MCU MAX, EVO Gen 2 Pro, DynoBox, ECU=SHOP) พร้อม Daylight/Night Liquid Glass UI และระบบความปลอดภัยระดับยานยนต์",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+      "tintColor": "#38BDF8",
+      "category": "utilities",
+      "version": "1.0.3",
+      "buildVersion": "33",
+      "versionDate": "2026-11-03T12:11:23Z",
+      "versionDescription": "v1.0.3 (Build 33) — อัปเกรดด้วย Craft Anything: ลดขนาดไบนารี, เพิ่มระบบความปลอดภัย Automotive และเพิ่ม Root PrivacyInfo.xcprivacy",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+      "size": 10627381,
+      "sha256": "65ad6ea2d7e38939608557926eefa65c506af099cf9806c943e9a827fe2d3fa5",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.0.3",
+          "buildVersion": "33",
+          "date": "2026-11-03T12:11:23Z",
+          "localizedDescription": "v1.0.3 (Build 33) — อัปเกรดด้วย Craft Anything: ลดขนาดไบนารี, เพิ่มระบบความปลอดภัย Automotive และเพิ่ม Root PrivacyInfo.xcprivacy",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+          "size": 10627381,
+          "sha256": "65ad6ea2d7e38939608557926eefa65c506af099cf9806c943e9a827fe2d3fa5",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    },
+    {
+      "name": "EVO Ultra",
+      "bundleIdentifier": "co.evonexus.app.evoNexusUltra",
+      "developerName": "Kornphong Keeratitanankul",
+      "subtitle": "Common-Rail FRP Boost (Lv.0–25) & Throttle Controller",
+      "localizedDescription": "EVO Ultra — แอปควบคุมกล่องคันเร่งไฟฟ้าพร้อมระบบดันรางคอมมอนเรลอัจฉริยะ (Common-Rail FRP Boost Lv.0–25, S1–S3 Slots, MAP CUT, WCAL) และ Wireless Smart FRP BLE Pod",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_ultra.png",
+      "tintColor": "#F59E0B",
+      "category": "utilities",
+      "version": "1.0.3",
+      "buildVersion": "33",
+      "versionDate": "2026-11-03T12:11:23Z",
+      "versionDescription": "v1.0.3 (Build 33) — อัปเกรดด้วย Craft Anything: ลดขนาดไบนารี, เพิ่มระบบความปลอดภัย Automotive และเพิ่ม Root PrivacyInfo.xcprivacy",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+      "size": 10734555,
+      "sha256": "fa9c3b51d1812cd12437f9e6aa36a7792a56d7985e04f75368f2ca07c636dcbb",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.0.3",
+          "buildVersion": "33",
+          "date": "2026-11-03T12:11:23Z",
+          "localizedDescription": "v1.0.3 (Build 33) — อัปเกรดด้วย Craft Anything: ลดขนาดไบนารี, เพิ่มระบบความปลอดภัย Automotive และเพิ่ม Root PrivacyInfo.xcprivacy",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+          "size": 10734555,
+          "sha256": "fa9c3b51d1812cd12437f9e6aa36a7792a56d7985e04f75368f2ca07c636dcbb",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    },
+    {
+      "name": "PlateLens",
+      "bundleIdentifier": "co.platelens.app.ios",
+      "developerName": "Kornphong Keeratitanankul",
+      "subtitle": "AI Dashcam License Plate Reader (Day, Dusk & Night)",
+      "localizedDescription": "PlateLens iOS — ระบบตรวจจับและอ่านป้ายทะเบียนรถยนต์ภาษาไทยจากวิดีโอกล้องหน้ารถ รองรับโหมดกลางวัน พลบค่ำ และกลางคืน (Dual-Exposure Shadow Lift & Glare Bracketing)",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/platelens.png",
+      "tintColor": "#10B981",
+      "category": "utilities",
+      "version": "1.0.0",
+      "buildVersion": "100",
+      "versionDate": "2026-11-03T12:11:23Z",
+      "versionDescription": "v1.0.0 (Build 100) — รองรับโหมดอ่านป้ายทะเบียนย้อนแสงและกลางคืน พร้อมใบรับรอง UDID อายุ 365 วัน",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+      "size": 2363659,
+      "sha256": "2233a676ec61bb324793d1bf063d155eb3ec448ff22a878fe66d19c8b48cd292",
+      "minOSVersion": "17.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "100",
+          "date": "2026-11-03T12:11:23Z",
+          "localizedDescription": "v1.0.0 (Build 100) — รองรับโหมดอ่านป้ายทะเบียนย้อนแสงและกลางคืน พร้อมใบรับรอง UDID อายุ 365 วัน",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+          "size": 2363659,
+          "sha256": "2233a676ec61bb324793d1bf063d155eb3ec448ff22a878fe66d19c8b48cd292",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    }
+  ],
+  "news": []
+}
