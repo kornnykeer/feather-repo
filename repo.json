@@ -1,0 +1,141 @@
+{
+  "name": "Kornphong iOS Lab (365-Day UDID)",
+  "identifier": "co.evonexus.feather.repo",
+  "subtitle": "EVO Nexus, EVO Ultra & PlateLens Automated Feather Feed",
+  "description": "คลังแอปพลิเคชันส่วนตัวสำหรับ iPhone 17 Pro Max (เซ็นใบรับรอง UDID 365 วันพร้อมติดตั้งและอัปเดตผ่าน Feather)",
+  "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "headerURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "website": "https://github.com/kornnykeer/feather-repo",
+  "tintColor": "#38BDF8",
+  "featuredApps": [
+    "co.evonexus.app.evoNexus",
+    "co.evonexus.app.evoNexusUltra",
+    "co.platelens.app.ios"
+  ],
+  "apps": [
+    {
+      "name": "EVO Nexus",
+      "bundleIdentifier": "co.evonexus.app.evoNexus",
+      "developerName": "Kornphong Keeratitanankul",
+      "subtitle": "[Build 42] Universal 4-Brand Throttle Controller (Gen 1 & Gen 2 Pro)",
+      "localizedDescription": "EVO Nexus — แอปควบคุมกล่องคันเร่งไฟฟ้าอัจฉริยะ 4 แบรนด์ (EVO Extreme Gen 1 MCU MAX, EVO Gen 2 Pro, DynoBox, ECU=SHOP) พร้อม Daylight/Night Liquid Glass UI และระบบความปลอดภัยระดับยานยนต์",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+      "tintColor": "#38BDF8",
+      "category": "utilities",
+      "version": "1.0.3+42",
+      "buildVersion": "42",
+      "versionDate": "2026-11-06T08:49:07Z",
+      "versionDescription": "v1.0.3+42 — แก้ไขการกดเลือกโหมดให้หน้าจอ 7-Segment เปลี่ยนทันทีในการกดเพียงครั้งเดียว (1-Tap Instant Mode Switch & Closed-Loop Confirmation)",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+      "size": 10695103,
+      "sha256": "ab7a15b8e4f7626098c9e625f3245a3d0063185ff57b861c27f0cb36b5002d7a",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.0.3+42",
+          "buildVersion": "42",
+          "date": "2026-11-06T08:49:07Z",
+          "localizedDescription": "v1.0.3+42 — แก้ไขการกดเลือกโหมดให้หน้าจอ 7-Segment เปลี่ยนทันทีในการกดเพียงครั้งเดียว (1-Tap Instant Mode Switch & Closed-Loop Confirmation)",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+          "size": 10695103,
+          "sha256": "ab7a15b8e4f7626098c9e625f3245a3d0063185ff57b861c27f0cb36b5002d7a",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    },
+    {
+      "name": "EVO Ultra",
+      "bundleIdentifier": "co.evonexus.app.evoNexusUltra",
+      "developerName": "Kornphong Keeratitanankul",
+      "subtitle": "[Build 42 • FW v1.1.0+2] Common-Rail FRP Boost (Lv.0–25) & Throttle Controller",
+      "localizedDescription": "EVO Ultra — แอปควบคุมกล่องคันเร่งไฟฟ้าพร้อมระบบดันรางคอมมอนเรลอัจฉริยะ (Common-Rail FRP Boost Lv.0–25, S1–S3 Slots, MAP CUT, WCAL) และ Wireless Smart FRP BLE Pod",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_ultra.png",
+      "tintColor": "#F59E0B",
+      "category": "utilities",
+      "version": "1.0.3+42",
+      "buildVersion": "42",
+      "versionDate": "2026-11-06T08:49:07Z",
+      "versionDescription": "v1.0.3+42 • FW v1.1.0+2 — แก้ไขการกดเลือกโหมดให้หน้าจอ 7-Segment เปลี่ยนทันทีในการกดเพียงครั้งเดียว (1-Tap Instant Mode Switch & Closed-Loop Confirmation)",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+      "size": 10804202,
+      "sha256": "4815bc937d590244b88969332d9b9b3dbd94c84d6377d1b8f1ab655fc7b21988",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.0.3+42",
+          "buildVersion": "42",
+          "date": "2026-11-06T08:49:07Z",
+          "localizedDescription": "v1.0.3+42 • FW v1.1.0+2 — แก้ไขการกดเลือกโหมดให้หน้าจอ 7-Segment เปลี่ยนทันทีในการกดเพียงครั้งเดียว (1-Tap Instant Mode Switch & Closed-Loop Confirmation)",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+          "size": 10804202,
+          "sha256": "4815bc937d590244b88969332d9b9b3dbd94c84d6377d1b8f1ab655fc7b21988",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    },
+    {
+      "name": "PlateLens",
+      "bundleIdentifier": "co.platelens.app.ios",
+      "developerName": "Kornphong Keeratitanankul",
+      "subtitle": "[Build 131] AI Dashcam License Plate Reader (Day, Dusk & Night)",
+      "localizedDescription": "PlateLens iOS — ระบบตรวจจับและอ่านป้ายทะเบียนรถยนต์ภาษาไทยจากวิดีโอกล้องหน้ารถ รองรับโหมดกลางวัน พลบค่ำ และกลางคืน (Dual-Exposure Shadow Lift & Glare Bracketing)",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/platelens.png",
+      "tintColor": "#10B981",
+      "category": "utilities",
+      "version": "1.3.1+131",
+      "buildVersion": "131",
+      "versionDate": "2026-11-06T08:49:07Z",
+      "versionDescription": "v1.3.1+131 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+      "size": 1402961,
+      "sha256": "8960b1e353808fd37d70cc545b5d9824ee9607c2d1474bf3aef57b34da55a07c",
+      "minOSVersion": "17.0",
+      "versions": [
+        {
+          "version": "1.3.1+131",
+          "buildVersion": "131",
+          "date": "2026-11-06T08:49:07Z",
+          "localizedDescription": "v1.3.1+131 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+          "size": 1402961,
+          "sha256": "8960b1e353808fd37d70cc545b5d9824ee9607c2d1474bf3aef57b34da55a07c",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    }
+  ],
+  "news": []
+}
