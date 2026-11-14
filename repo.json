@@ -1,0 +1,141 @@
+{
+  "name": "EVO Private Feed (UDID-Locked)",
+  "identifier": "co.evonexus.feather.repo",
+  "subtitle": "EVO Nexus, EVO Ultra & PlateLens Private Feed",
+  "description": "คลังอัปเดตส่วนตัวเฉพาะเครื่องที่ลงทะเบียน UDID เท่านั้น (Single-Device Hardware Lock)",
+  "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "headerURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "website": "https://localhost",
+  "tintColor": "#38BDF8",
+  "featuredApps": [
+    "co.evonexus.app.evoNexus",
+    "co.evonexus.app.evoNexusUltra",
+    "co.platelens.app.ios"
+  ],
+  "apps": [
+    {
+      "name": "EVO Nexus",
+      "bundleIdentifier": "co.evonexus.app.evoNexus",
+      "developerName": "EVO Core",
+      "subtitle": "[Build 59] Universal 4-Brand Throttle Controller (Gen 1 & Gen 2 Pro)",
+      "localizedDescription": "EVO Nexus — แอปควบคุมกล่องคันเร่งไฟฟ้าอัจฉริยะ 4 แบรนด์ (EVO Extreme Gen 1 MCU MAX, EVO Gen 2 Pro, DynoBox, ECU=SHOP) พร้อม Daylight/Night Liquid Glass UI และระบบความปลอดภัยระดับยานยนต์",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+      "tintColor": "#38BDF8",
+      "category": "utilities",
+      "version": "1.1.0+59",
+      "buildVersion": "59",
+      "versionDate": "2026-11-14T14:34:03Z",
+      "versionDescription": "v1.1.0+59 — อัปเกรดเมเจอร์ฟีเจอร์ v1.1.0+59 (1:1 ruvnet-visual V4 Blueprint HUD & Autonomous AI Co-Pilot Edition): ยกเครื่องสถาปัตยกรรมหน้าจอ ruvnet-visual V4 ครบ 100% (เกจวงแหวนคู่ 2-Ring Live RX + 4 แถบเทเลเมทรีสด, ฉากเล็งมุม HUD L-Corner Reticles, การ์ดพรีเซ็ต 6 ปุ่มทรงพิมพ์เขียวพร้อมปุ่มปิดควันดำ, สลับ 2 ภาษา 🇹🇭/🇺🇸) ผสานสมองกล AI Co-Pilot & Multi-Zone Geo-Preset เบื้องหลังพร้อมสะพานเชื่อม 1-2 สเต็ปกันกระตุก",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+      "size": 10586831,
+      "sha256": "5b129f651fd7f6d66e839ef4f38d08e96230027931542a1c26c5737d9d22a74d",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.1.0+59",
+          "buildVersion": "59",
+          "date": "2026-11-14T14:34:03Z",
+          "localizedDescription": "v1.1.0+59 — อัปเกรดเมเจอร์ฟีเจอร์ v1.1.0+59 (1:1 ruvnet-visual V4 Blueprint HUD & Autonomous AI Co-Pilot Edition): ยกเครื่องสถาปัตยกรรมหน้าจอ ruvnet-visual V4 ครบ 100% (เกจวงแหวนคู่ 2-Ring Live RX + 4 แถบเทเลเมทรีสด, ฉากเล็งมุม HUD L-Corner Reticles, การ์ดพรีเซ็ต 6 ปุ่มทรงพิมพ์เขียวพร้อมปุ่มปิดควันดำ, สลับ 2 ภาษา 🇹🇭/🇺🇸) ผสานสมองกล AI Co-Pilot & Multi-Zone Geo-Preset เบื้องหลังพร้อมสะพานเชื่อม 1-2 สเต็ปกันกระตุก",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+          "size": 10586831,
+          "sha256": "5b129f651fd7f6d66e839ef4f38d08e96230027931542a1c26c5737d9d22a74d",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    },
+    {
+      "name": "EVO Ultra",
+      "bundleIdentifier": "co.evonexus.app.evoNexusUltra",
+      "developerName": "EVO Core",
+      "subtitle": "[Build 59 • FW v1.1.0+2] Common-Rail FRP Boost (Lv.0–25) & Throttle Controller",
+      "localizedDescription": "EVO Ultra — แอปควบคุมกล่องคันเร่งไฟฟ้าพร้อมระบบดันรางคอมมอนเรลอัจฉริยะ (Common-Rail FRP Boost Lv.0–25, S1–S3 Slots, MAP CUT, WCAL) และ Wireless Smart FRP BLE Pod",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_ultra.png",
+      "tintColor": "#F59E0B",
+      "category": "utilities",
+      "version": "1.1.0+59",
+      "buildVersion": "59",
+      "versionDate": "2026-11-14T14:34:03Z",
+      "versionDescription": "v1.1.0+59 • FW v1.1.0+2 — อัปเกรดเมเจอร์ฟีเจอร์ v1.1.0+59 (1:1 ruvnet-visual V4 Blueprint HUD & Autonomous AI Co-Pilot Edition): ยกเครื่องสถาปัตยกรรมหน้าจอ ruvnet-visual V4 ครบ 100% (เกจวงแหวนคู่ 2-Ring Live RX + 4 แถบเทเลเมทรีสด, ฉากเล็งมุม HUD L-Corner Reticles, การ์ดพรีเซ็ต 6 ปุ่มทรงพิมพ์เขียวพร้อมปุ่มปิดควันดำ, สลับ 2 ภาษา 🇹🇭/🇺🇸) ผสานสมองกล AI Co-Pilot & Multi-Zone Geo-Preset เบื้องหลังพร้อมสะพานเชื่อม 1-2 สเต็ปกันกระตุก",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+      "size": 10697820,
+      "sha256": "bd9c71017b3a39305a77b8c8687b8666335c20f44fa46eebe767243c11c53fbd",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.1.0+59",
+          "buildVersion": "59",
+          "date": "2026-11-14T14:34:03Z",
+          "localizedDescription": "v1.1.0+59 • FW v1.1.0+2 — อัปเกรดเมเจอร์ฟีเจอร์ v1.1.0+59 (1:1 ruvnet-visual V4 Blueprint HUD & Autonomous AI Co-Pilot Edition): ยกเครื่องสถาปัตยกรรมหน้าจอ ruvnet-visual V4 ครบ 100% (เกจวงแหวนคู่ 2-Ring Live RX + 4 แถบเทเลเมทรีสด, ฉากเล็งมุม HUD L-Corner Reticles, การ์ดพรีเซ็ต 6 ปุ่มทรงพิมพ์เขียวพร้อมปุ่มปิดควันดำ, สลับ 2 ภาษา 🇹🇭/🇺🇸) ผสานสมองกล AI Co-Pilot & Multi-Zone Geo-Preset เบื้องหลังพร้อมสะพานเชื่อม 1-2 สเต็ปกันกระตุก",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+          "size": 10697820,
+          "sha256": "bd9c71017b3a39305a77b8c8687b8666335c20f44fa46eebe767243c11c53fbd",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    },
+    {
+      "name": "PlateLens",
+      "bundleIdentifier": "co.platelens.app.ios",
+      "developerName": "EVO Core",
+      "subtitle": "[Build 140] AI Dashcam License Plate Reader (Day, Dusk & Night)",
+      "localizedDescription": "PlateLens iOS — ระบบตรวจจับและอ่านป้ายทะเบียนรถยนต์ภาษาไทยจากวิดีโอกล้องหน้ารถ รองรับโหมดกลางวัน พลบค่ำ และกลางคืน (Dual-Exposure Shadow Lift & Glare Bracketing)",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/platelens.png",
+      "tintColor": "#10B981",
+      "category": "utilities",
+      "version": "1.4.0+140",
+      "buildVersion": "140",
+      "versionDate": "2026-11-14T14:34:03Z",
+      "versionDescription": "v1.4.0+140 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+      "size": 1412868,
+      "sha256": "0bd1fdb02904d6f0ba550939842d7985ad175607f57d52c117dd14ebe8eea4db",
+      "minOSVersion": "17.0",
+      "versions": [
+        {
+          "version": "1.4.0+140",
+          "buildVersion": "140",
+          "date": "2026-11-14T14:34:03Z",
+          "localizedDescription": "v1.4.0+140 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+          "size": 1412868,
+          "sha256": "0bd1fdb02904d6f0ba550939842d7985ad175607f57d52c117dd14ebe8eea4db",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และแรงดึง G-Force แบบเรียลไทม์",
+          "NSFaceIDUsageDescription": "ปลดล็อกโหมดกันขโมย (Pedal Lock) ด้วย Face ID"
+        }
+      }
+    }
+  ],
+  "news": []
+}
