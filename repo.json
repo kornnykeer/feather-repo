@@ -1,0 +1,138 @@
+{
+  "name": "EV Private Feed (UDID-Locked)",
+  "identifier": "co.evonexus.feather.repo",
+  "subtitle": "EV Nexus, EV Ultra & PlateLens Private Feed",
+  "description": "คลังอัปเดตส่วนตัวเฉพาะเครื่องที่ลงทะเบียน UDID เท่านั้น (Single-Device Hardware Lock)",
+  "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "headerURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "website": "https://localhost",
+  "tintColor": "#38BDF8",
+  "featuredApps": [
+    "co.evonexus.app.evoNexus",
+    "co.evonexus.app.evoNexusUltra",
+    "co.platelens.app.ios"
+  ],
+  "apps": [
+    {
+      "name": "EV Nexus",
+      "bundleIdentifier": "co.evonexus.app.evoNexus",
+      "developerName": "EV Core",
+      "subtitle": "[Build 74] Multi-Protocol Electronic Throttle Controller (Gen 1 & Gen 2 Pro)",
+      "localizedDescription": "EV Nexus — แอปควบคุมกล่องคันเร่งไฟฟ้าอัจฉริยะ (Gen 1 MCU MAX, Gen 2 Pro และ Multi-Protocol HAL) พร้อม Daylight/Night Liquid Glass UI และระบบความปลอดภัยระดับยานยนต์",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+      "tintColor": "#38BDF8",
+      "category": "utilities",
+      "version": "1.1.0+74",
+      "buildVersion": "74",
+      "versionDate": "2026-11-19T07:51:24Z",
+      "versionDescription": "v1.1.0+74 — อัปเดต v1.1.0+74: รีแบรนด์เป็น EV Nexus ตามโลโก้, ปรับปรุงมาตรฐานความพร้อมขึ้น App Store เต็มรูปแบบ (โลโก้รถแบบ Vector, เสียงแจ้งเตือนสังเคราะห์ใหม่, นโยบายความเป็นส่วนตัวออฟไลน์ 100%, โหมดนักพัฒนาสำหรับ Protocol Lab) และแก้ไขบั๊กแฝงทุกจุดทั้ง Dart & Swift",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+      "size": 9204495,
+      "sha256": "7659094dccd607576d434c632390be14008f9dac984d963025b45852a439fdf9",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.1.0+74",
+          "buildVersion": "74",
+          "date": "2026-11-19T07:51:24Z",
+          "localizedDescription": "v1.1.0+74 — อัปเดต v1.1.0+74: รีแบรนด์เป็น EV Nexus ตามโลโก้, ปรับปรุงมาตรฐานความพร้อมขึ้น App Store เต็มรูปแบบ (โลโก้รถแบบ Vector, เสียงแจ้งเตือนสังเคราะห์ใหม่, นโยบายความเป็นส่วนตัวออฟไลน์ 100%, โหมดนักพัฒนาสำหรับ Protocol Lab) และแก้ไขบั๊กแฝงทุกจุดทั้ง Dart & Swift",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+          "size": 9204495,
+          "sha256": "7659094dccd607576d434c632390be14008f9dac984d963025b45852a439fdf9",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และสลับโหมด Geo-Preset แบบเรียลไทม์บนอุปกรณ์"
+        }
+      }
+    },
+    {
+      "name": "EV Ultra",
+      "bundleIdentifier": "co.evonexus.app.evoNexusUltra",
+      "developerName": "EV Core",
+      "subtitle": "[Build 74 • FW v1.1.0+2] Common-Rail FRP Boost (Lv.0–25) & Throttle Controller",
+      "localizedDescription": "EV Ultra — แอปควบคุมกล่องคันเร่งไฟฟ้าพร้อมระบบดันรางคอมมอนเรลอัจฉริยะ (Common-Rail FRP Boost Lv.0–25, S1–S3 Slots, MAP CUT, WCAL) และ Wireless Smart FRP BLE Pod",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_ultra.png",
+      "tintColor": "#F59E0B",
+      "category": "utilities",
+      "version": "1.1.0+74",
+      "buildVersion": "74",
+      "versionDate": "2026-11-19T07:51:24Z",
+      "versionDescription": "v1.1.0+74 • FW v1.1.0+2 — อัปเดต v1.1.0+74: รีแบรนด์เป็น EV Ultra ตามโลโก้, ปรับปรุงมาตรฐานความพร้อมขึ้น App Store เต็มรูปแบบ และแก้ไขบั๊กแฝงทุกจุดทั้ง Dart & Swift",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+      "size": 9314438,
+      "sha256": "b51cd754f7837a2e49ee0de7d95aa09d0b83a3f54c5d7610b4c22347f5cb7371",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.1.0+74",
+          "buildVersion": "74",
+          "date": "2026-11-19T07:51:24Z",
+          "localizedDescription": "v1.1.0+74 • FW v1.1.0+2 — อัปเดต v1.1.0+74: รีแบรนด์เป็น EV Ultra ตามโลโก้, ปรับปรุงมาตรฐานความพร้อมขึ้น App Store เต็มรูปแบบ และแก้ไขบั๊กแฝงทุกจุดทั้ง Dart & Swift",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+          "size": 9314438,
+          "sha256": "b51cd754f7837a2e49ee0de7d95aa09d0b83a3f54c5d7610b4c22347f5cb7371",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และสลับโหมด Geo-Preset แบบเรียลไทม์บนอุปกรณ์"
+        }
+      }
+    },
+    {
+      "name": "PlateLens",
+      "bundleIdentifier": "co.platelens.app.ios",
+      "developerName": "EV Core",
+      "subtitle": "[Build 140] AI Dashcam License Plate Reader (Day, Dusk & Night)",
+      "localizedDescription": "PlateLens iOS — ระบบตรวจจับและอ่านป้ายทะเบียนรถยนต์ภาษาไทยจากวิดีโอกล้องหน้ารถ รองรับโหมดกลางวัน พลบค่ำ และกลางคืน (Dual-Exposure Shadow Lift & Glare Bracketing)",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/platelens.png",
+      "tintColor": "#10B981",
+      "category": "utilities",
+      "version": "1.4.0+140",
+      "buildVersion": "140",
+      "versionDate": "2026-11-19T07:51:24Z",
+      "versionDescription": "v1.4.0+140 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+      "size": 1412864,
+      "sha256": "5bf084753cc8f73b086983477edb8534cad98475a47b87cc49401bf3ae730598",
+      "minOSVersion": "17.0",
+      "versions": [
+        {
+          "version": "1.4.0+140",
+          "buildVersion": "140",
+          "date": "2026-11-19T07:51:24Z",
+          "localizedDescription": "v1.4.0+140 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+          "size": 1412864,
+          "sha256": "5bf084753cc8f73b086983477edb8534cad98475a47b87cc49401bf3ae730598",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และสลับโหมด Geo-Preset แบบเรียลไทม์บนอุปกรณ์"
+        }
+      }
+    }
+  ],
+  "news": []
+}
