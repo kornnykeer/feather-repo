@@ -1,0 +1,138 @@
+{
+  "name": "EV Private Feed (UDID-Locked)",
+  "identifier": "co.evonexus.feather.repo",
+  "subtitle": "EV Nexus, EV Ultra & PlateLens Private Feed",
+  "description": "คลังอัปเดตส่วนตัวเฉพาะเครื่องที่ลงทะเบียน UDID เท่านั้น (Single-Device Hardware Lock)",
+  "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "headerURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+  "website": "https://localhost",
+  "tintColor": "#38BDF8",
+  "featuredApps": [
+    "co.evonexus.app.evoNexus",
+    "co.evonexus.app.evoNexusUltra",
+    "co.platelens.app.ios"
+  ],
+  "apps": [
+    {
+      "name": "EV Nexus",
+      "bundleIdentifier": "co.evonexus.app.evoNexus",
+      "developerName": "EV Core",
+      "subtitle": "[Build 81] Multi-Protocol Electronic Throttle Controller (Gen 1 & Gen 2 Pro)",
+      "localizedDescription": "EV Nexus — แอปควบคุมกล่องคันเร่งไฟฟ้าอัจฉริยะ (Gen 1 MCU MAX, Gen 2 Pro และ Multi-Protocol HAL) พร้อม Daylight/Night Liquid Glass UI และระบบความปลอดภัยระดับยานยนต์",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_nexus.png",
+      "tintColor": "#38BDF8",
+      "category": "utilities",
+      "version": "1.1.0+81",
+      "buildVersion": "81",
+      "versionDate": "2026-11-26T07:42:59Z",
+      "versionDescription": "v1.1.0+81 — อัปเดต v1.1.0+81: รองรับ ELM327 โหมด Passive Sniffing (ATCRA 7E8 + ATMA, TX=0) ร่วมกับ Lufi XS บน Mazda BT-50 PRO + อ่าน Ford SID208 UDS (Turbo Boost & Oil Temp) + ล็อกลบโค้ด 04 อัตโนมัติ",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+      "size": 9236152,
+      "sha256": "19faddbbb502383c5a49ed9bdf1f25a7356e95a65fd52aaa714603fb13713e41",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.1.0+81",
+          "buildVersion": "81",
+          "date": "2026-11-26T07:42:59Z",
+          "localizedDescription": "v1.1.0+81 — อัปเดต v1.1.0+81: รองรับ ELM327 โหมด Passive Sniffing (ATCRA 7E8 + ATMA, TX=0) ร่วมกับ Lufi XS บน Mazda BT-50 PRO + อ่าน Ford SID208 UDS (Turbo Boost & Oil Temp) + ล็อกลบโค้ด 04 อัตโนมัติ",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus.ipa",
+          "size": 9236152,
+          "sha256": "19faddbbb502383c5a49ed9bdf1f25a7356e95a65fd52aaa714603fb13713e41",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และสลับโหมด Geo-Preset แบบเรียลไทม์บนอุปกรณ์"
+        }
+      }
+    },
+    {
+      "name": "EV Ultra",
+      "bundleIdentifier": "co.evonexus.app.evoNexusUltra",
+      "developerName": "EV Core",
+      "subtitle": "[Build 81 • FW v1.1.0+2] Common-Rail FRP Boost (Lv.0–25) & Throttle Controller",
+      "localizedDescription": "EV Ultra — แอปควบคุมกล่องคันเร่งไฟฟ้าพร้อมระบบดันรางคอมมอนเรลอัจฉริยะ (Common-Rail FRP Boost Lv.0–25, S1–S3 Slots, MAP CUT, WCAL) และ Wireless Smart FRP BLE Pod",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/evo_ultra.png",
+      "tintColor": "#F59E0B",
+      "category": "utilities",
+      "version": "1.1.0+81",
+      "buildVersion": "81",
+      "versionDate": "2026-11-26T07:42:59Z",
+      "versionDescription": "v1.1.0+81 • FW v1.1.0+2 — อัปเดต v1.1.0+81: รองรับ ELM327 โหมด Passive Sniffing (ATCRA 7E8 + ATMA, TX=0) ร่วมกับ Lufi XS บน Mazda BT-50 PRO + อ่าน Ford SID208 UDS (Turbo Boost & Oil Temp) + ล็อกลบโค้ด 04 อัตโนมัติ",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+      "size": 9350904,
+      "sha256": "36c29dcdf0a4001b88662de1e9dec1cf7a715141248f541395f1731610502139",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.1.0+81",
+          "buildVersion": "81",
+          "date": "2026-11-26T07:42:59Z",
+          "localizedDescription": "v1.1.0+81 • FW v1.1.0+2 — อัปเดต v1.1.0+81: รองรับ ELM327 โหมด Passive Sniffing (ATCRA 7E8 + ATMA, TX=0) ร่วมกับ Lufi XS บน Mazda BT-50 PRO + อ่าน Ford SID208 UDS (Turbo Boost & Oil Temp) + ล็อกลบโค้ด 04 อัตโนมัติ",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/EVO_Nexus_Ultra.ipa",
+          "size": 9350904,
+          "sha256": "36c29dcdf0a4001b88662de1e9dec1cf7a715141248f541395f1731610502139",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และสลับโหมด Geo-Preset แบบเรียลไทม์บนอุปกรณ์"
+        }
+      }
+    },
+    {
+      "name": "PlateLens",
+      "bundleIdentifier": "co.platelens.app.ios",
+      "developerName": "EV Core",
+      "subtitle": "[Build 140] AI Dashcam License Plate Reader (Day, Dusk & Night)",
+      "localizedDescription": "PlateLens iOS — ระบบตรวจจับและอ่านป้ายทะเบียนรถยนต์ภาษาไทยจากวิดีโอกล้องหน้ารถ รองรับโหมดกลางวัน พลบค่ำ และกลางคืน (Dual-Exposure Shadow Lift & Glare Bracketing)",
+      "iconURL": "https://raw.githubusercontent.com/kornnykeer/feather-repo/main/icons/platelens.png",
+      "tintColor": "#10B981",
+      "category": "utilities",
+      "version": "1.4.0+140",
+      "buildVersion": "140",
+      "versionDate": "2026-11-26T07:42:59Z",
+      "versionDescription": "v1.4.0+140 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+      "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+      "size": 1412864,
+      "sha256": "9e24954f9e214f536b8da2e92c4957577b32f5e7b8bf69712e4b81c73acf5ed2",
+      "minOSVersion": "17.0",
+      "versions": [
+        {
+          "version": "1.4.0+140",
+          "buildVersion": "140",
+          "date": "2026-11-26T07:42:59Z",
+          "localizedDescription": "v1.4.0+140 — อัปเกรด v1.1.0: รองรับครบ 77 จังหวัดทั่วไทย, โหมดกล้องสด Live AR แนวนอน + ซูมเลนส์ 1x/2x/3x, จุดมาร์กเหตุการณ์บน Timeline, ระบบแจ้งเตือนป้ายเป้าหมาย (Watchlist) และส่งออกรายงาน CSV",
+          "downloadURL": "https://github.com/kornnykeer/feather-repo/releases/download/latest/PlateLens_iOS.ipa",
+          "size": 1412864,
+          "sha256": "9e24954f9e214f536b8da2e92c4957577b32f5e7b8bf69712e4b81c73acf5ed2",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "เชื่อมต่อกล่องคันเร่งไฟฟ้าและฮาร์ดแวร์เสริมผ่าน Bluetooth BLE",
+          "NSLocationWhenInUseUsageDescription": "คำนวณความเร็ว GPS และสลับโหมด Geo-Preset แบบเรียลไทม์บนอุปกรณ์"
+        }
+      }
+    }
+  ],
+  "news": []
+}
